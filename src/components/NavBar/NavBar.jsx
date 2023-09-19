@@ -27,7 +27,6 @@ const NavBar = () => {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
             </ul>
-            <h1>hello</h1>
         </nav>
     );
 };
